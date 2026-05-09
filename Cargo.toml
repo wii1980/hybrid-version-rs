@@ -7,8 +7,9 @@ version = "0.1.0"
 rust-version = "1.75"
 license = "MIT"
 documentation = "https://docs.rs/hybrid-version"
+repository = "https://github.com/wii1980/hybrid-version-rs"
 keywords = ["build-dependencies", "version", "git", "build-rs", "fingerprint"]
-categories = ["development-tools::build-utils", "development-tools::versioning"]
+categories = ["development-tools::build-utils"]
 
 [dependencies]
 thiserror = "2.0"
