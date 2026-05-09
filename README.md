@@ -25,7 +25,7 @@ Generate comprehensive version constants and build fingerprints at compile time 
 
 ```toml
 [build-dependencies]
-hybrid-version = "0.1"
+hybrid-version = "0.1.0"
 ```
 
 ### 2. Create `build.rs`

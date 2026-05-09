@@ -25,7 +25,7 @@
 
 ```toml
 [build-dependencies]
-hybrid-version = "0.1"
+hybrid-version = "0.1.0"
 ```
 
 ### 2. 创建 `build.rs`
