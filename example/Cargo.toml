@@ -1,0 +1,11 @@
+[package]
+name = "example"
+edition = "2021"
+version = "0.2.0"
+publish = false
+
+[build-dependencies]
+hybrid-version = { path = "../" }
+
+[package.metadata.release]
+release = false
