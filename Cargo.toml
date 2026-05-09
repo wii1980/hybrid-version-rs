@@ -7,7 +7,7 @@ version = "0.1.0"
 rust-version = "1.75"
 license = "MIT"
 documentation = "https://docs.rs/hybrid-version"
-keywords = ["build-dependencies", "version", "git", "build.rs", "fingerprint"]
+keywords = ["build-dependencies", "version", "git", "build-rs", "fingerprint"]
 categories = ["development-tools::build-utils", "development-tools::versioning"]
 
 [dependencies]
