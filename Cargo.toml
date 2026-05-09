@@ -1,0 +1,28 @@
+[package]
+authors = ["wfeii@163.com"]
+description = "Hybrid Cargo.toml + Git version generation for build.rs — auto-patch, fingerprints, build logs"
+edition = "2021"
+name = "hybrid-version"
+version = "0.1.0"
+rust-version = "1.75"
+license = "MIT"
+documentation = "https://docs.rs/hybrid-version"
+keywords = ["build-dependencies", "version", "git", "build.rs", "fingerprint"]
+categories = ["development-tools::build-utils", "development-tools::versioning"]
+
+[dependencies]
+thiserror = "2.0"
+time = {version = "0.3", features = ["formatting", "parsing"]}
+time-macros = ">=0.2, <=0.2.26"
+time-core = ">=0.1, <=0.1.4"
+tzdb = "0.5"
+
+[lints.rust]
+unsafe_code = "warn"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
+
+[workspace]
+members = ["example"]

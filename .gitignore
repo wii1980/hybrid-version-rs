@@ -1,0 +1,6 @@
+/target
+/Cargo.lock
+version.rs
+Buildlog.txt
+*.env
+release.toml
