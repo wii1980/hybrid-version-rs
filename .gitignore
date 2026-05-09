@@ -4,3 +4,4 @@ version.rs
 Buildlog.txt
 *.env
 release.toml
+.githooks/
